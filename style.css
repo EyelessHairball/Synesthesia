@@ -1,0 +1,54 @@
+body {
+    background-color: white ;
+  }
+  
+h1 {
+    color: white;
+    margin-left: 20px;
+    margin-top: 28px ;
+    font-family: "Freeman", sans-serif;
+    font-weight: 1000;
+    font-style: normal;
+  }
+header {
+    margin: 0 auto;
+    width: 100%;
+    position:fixed;
+    top:0;
+    left:0;
+    background-color: #242424;
+  }
+  
+.Icon {
+    float:left;
+    padding: 5px 5px;
+  }
+  .search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .SearchTxt {
+    width: 100%;
+    border: 3px solid gray;
+    padding: 5px;
+    height: 20px;
+    border-radius: 0px 0 5px 5px;
+    outline: none;
+    color: gray;
+  }
+
+.Bar{
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.Marquee{
+    position: absolute;
+    top: 13%;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
